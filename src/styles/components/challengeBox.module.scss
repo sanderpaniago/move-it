@@ -1,9 +1,8 @@
-@use "../../styles/color" as *; 
 
 .challengeBoxContainer {
     height: 100%;
 
-    background: $white;
+    background: var(--white);
     border-radius: 5px;
     box-shadow: 0 0 60px rgba(0,0,0,0.05);
     padding: 1.5rem 2rem;
@@ -47,11 +46,11 @@
     flex-direction: column;
 
     header {
-        color: $blue;
+        color: var(--blue);
         font-weight: 600;
         font-size: 1.25rem;
         padding: 0 2rem 1.5rem;
-        border-bottom: 1px solid $gray-line;
+        border-bottom: 1px solid var(--gray-line);
     }
 
     main {
@@ -64,7 +63,7 @@
         strong {
             font-weight: 600;
             font-size: 2rem;
-            color: $title;
+            color: var(--title);
             margin: 1.5rem 0 1rem;
         }
     
@@ -87,7 +86,7 @@
             border: 0;
             border-radius: 5px;
 
-            color: $white;
+            color: var(--white);
 
             font-size: 1rem;
             font-weight: 600;
@@ -100,11 +99,11 @@
 
 
             &.challengeFailedButton {
-                background: $red;
+                background: var(--red);
             }
 
             &.challengeSucceededButton {
-                background: $green;
+                background: var(--green);
             }
         }
     }

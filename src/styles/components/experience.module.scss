@@ -1,4 +1,3 @@
-@use "../../styles/color" as *;
 .experienceBar {
     display: flex;
     align-items:  center;
@@ -11,14 +10,14 @@
         flex: 1;
         height: 4px;
         border-radius: 4px;
-        background: $gray-line;
+        background: var(--gray-line);
         margin: 0 1.5rem;
         position: relative;
 
         & > div {
             height: 4px;
             border-radius: 4px;
-            background-color: $green;
+            background-color: var(--green);
         }
         
         .currentExperience {
